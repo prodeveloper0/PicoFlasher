@@ -18,7 +18,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "bsp/board.h"
 #include "hardware/vreg.h"
 #include "hardware/clocks.h"
 #include "pico/stdlib.h"
@@ -75,6 +74,8 @@ void tud_resume_cb(void)
 
 void led_blink(void)
 {
+	// TODO Fix later to compile successfully
+	/*
 	static uint32_t start_ms = 0;
 	static bool led_state = false;
 
@@ -87,6 +88,7 @@ void led_blink(void)
 
 	gpio_put(LED_PIN, led_state);
 	led_state = 1 - led_state;
+	*/
 }
 
 #define GET_VERSION 0x00
