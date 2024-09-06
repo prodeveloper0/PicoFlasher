@@ -4,6 +4,8 @@
 
 Open source XBOX 360 NAND flasher firmware for Raspberry Pi Pico
 
+([Binary Build Guide](BUILD.md)) If you want, you can build your own binary.
+
 ## Wiring:
 
 ### Nand Flash
